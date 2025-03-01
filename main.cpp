@@ -1,3 +1,6 @@
+// Arnav Sinha https://github.com/arnav43
+// https://www.linkedin.com/in/arnavsinha4334
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include "shader_s.h"
@@ -124,8 +127,8 @@ int main()
     stbi_set_flip_vertically_on_load(true); // so our image is not inverted
 
     // Add proper texture error checking
-
-    unsigned char* data = stbi_load("C:/Users/sinha/Desktop/Stryker Internship/Computer Graphics/Projects_OpenGL/DVDLogo_Project/images/my_image2.png", &width, &height, &nrChannels, 0);
+    // PUT IMAGE PATH ---- YOURS!
+    unsigned char* data = stbi_load("my_image2.png", &width, &height, &nrChannels, 0);
 
 
     if (data) {
