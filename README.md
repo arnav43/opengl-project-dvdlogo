@@ -1,6 +1,6 @@
 # DVD Player Screen Logo Screensaver - OpenGL/C++
 
-## DEMO VIDEO 💻
+## Screensaver 💻
 https://github.com/user-attachments/assets/f97b58dc-6ad3-4f20-9798-f399cfb262a1
 
 This project is a fun simulation of the classic **DVD screensaver** where the **DVD logo bounces around the screen**, changing color every time it hits a corner. The simulation is built using **OpenGL**, **GLFW**, and **GLM**, and features smooth movement with slight velocity variations for a more dynamic effect.  
